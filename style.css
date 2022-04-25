@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Rambla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap');
+html{
+  overflow-x: hidden;
+}
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+header{
+  background-color: #404EED;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10%;
+  align-items: flex-start;
+}
+a{
+  width: 100px;
+  margin-right: 24px;
+  padding: 9px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+button{
+ margin-bottom: 30px;
+  margin-right: 30px;
+  width: 60px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+}
+.mainshadow{
+  display: flex;
+  justify-content: center;
+  padding-top: 55px;
+  height: 496px;
+  background-color: #404EED;
+}
+.text1{
+  font-family: 'Paytone One';
+  font-size: 59px;
+  font-weight: 800;
+  color: white;
+  
+}
+.shadow{
+  position:relative;
+  height: 627px;
+  bottom:186px;
+  right: -1.5px;
+}
+.cartoon2{
+    position: absolute;
+    bottom: 166px;
+    right: -225px;
+}
+.cartoon1{
+  position: absolute;
+    bottom: 166px;
+    left: -270px;
+}
+.text1{
+  position: relative;
+  bottom: 455px;
+  font-size: 59px;
+  font-family: var(--font-headline);
+  font-family: "Ginto Nord","Paytone One","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+  left: 440px;
+  
+}
+.text2{
+  position: relative;
+  bottom: 420px;
+  color: white;
+  left: 400px;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.625;
+  word-spacing: 2px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.button{
+  position: absolute;
+  bottom: 283px;
+  background-color: #ffff;
+  color: black;
+  font-size: 18px;
+  border-radius: 50;
+  height: 60px;
+  width: 290px;
+  left: 440px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.gg-software-download{
+  left: 20px;
+  top: 15px;
+}
+.blackbutton{
+  position: absolute;
+  bottom: 283px;
+  color:white;
+  background-color: black;
+  font-size: 18px;
+  border-radius: 50;
+  height: 60px;
+  width: 290px;
+  left: 760px;
+}
+.secondFlex{
+display: flex;
+justify-content: center;
+height: 500px;
+}
+.graphics2{
+  max-width: 678px;
+  max-height: 440px;
+  margin-top: -65px;
+}
+.gra2text{
+  display: flex;
+  flex-direction: column;
+  margin-top: -39px;
+  padding-left: 113px;
+  
+}
+.gra2text h2{
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 120%;
+}
+.gra2text h6{
+  margin-top: 20px;
+ font-weight: 50;
+ font-size: 20px;
+ line-height: 1.625; 
+}
+.thirdFlex{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f6f6f6 ;
+  align-items: center;
+  height: 690px;
+}
+.gra3text h2{
+  font-weight: bold;
+  padding-left: 173px;
+  font-size: 48px;
+  line-height: 120%;
+}
+.gra3text p{
+  margin-top: 20px;
+  padding-left: 173px;
+ font-weight: 55;
+ font-size: 20px;
+ line-height: 1.625;
+}
+.graphic3{
+  padding-right: 170px;
+}
+.forthflex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 686px;
+}
+.graphic4{
+  padding-left: 173px;
+}
+.gra4text h2{
+  font-size: 48px;
+  padding-right: 173px;
+}
+.gra4text p{
+  font-size: 19px;
+  margin-top: 24px;
+  padding-right: 189px;
+  line-height: 1.625;
+  font-weight: lighter;
+}
+.fivethflex{
+  display: flex;
+  background-color: #f6f6f6;
+  height: 1326px;
+}
+.gra5text h1{
+  margin-left: 300px;
+  margin-top: 100px;
+  font-weight: 800;
+  font-size: clamp(40px,100vw,50px);
+}
+.gra5text p{
+  margin-top: 10px;
+  margin-left: 300px;
+  font-size: 19px;
+  font-weight: 60;
+}
+.graphic5{
+ position: relative;
+ left: 170px;
+ margin-top: 35px;
+ height: 720px;
+}
+.graphic6{
+  position: relative;
+  margin-top: 74px;
+  left: 494px;
+}
+.lastbutton h1{
+  position: relative;
+  font-weight: bold;
+  left: 239px;
+  margin-top: -26px;
+  font-size:33px;
+}
+.secondbutton{
+  position: relative;
+  background-color: #404EED;
+  color: #ffff;
+  font-size: 18px;
+  border-radius: 50;
+  height: 55px;
+  width: 290px;
+  padding-bottom: 13px;
+  padding-left: 13px;
+  cursor: pointer;
+  margin-top: 36px;
+  left: 612px;
+}
+.lastbox{
+  background-color: #23272a;
+  height: 512px;
+}
+.text1-5{
+  margin-left: 170px;
+  padding-top: 69px;
+  color: #404EED;
+  font-size: 30px;
+  font-weight: bold;
+  font-family: 'Paytone One';
+}
+.usa{
+  width: 30px;
+  height: 15px;
+}
+.lang h6{
+  color: white;
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-left: 40px;
+  margin-top: -24px;
+}
+.social{
+  margin-top: 15px;
+  font-size: 26px;
+}
+.products{
+  margin-left: 573px;
+  margin-top: -165px;
+  color: #404EED;
+  font-weight: 60px;
+  font-size: 16px;
+}
+.products h6{
+  color: #ffff;
+  font-weight: 60;
+  line-height: 2.5;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.company{
+  margin-left: 773px;
+  margin-top: -150px;
+  color: #404EED;
+  font-weight: 40px;
+  font-size: 16px;
+}
+.company h6{
+  color: #ffff;
+  font-weight: 60;
+  line-height: 2.3;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.resources{
+  margin-left: 976px;
+  margin-top: -166px;
+  color: #404EED;
+  font-weight: 40px;
+  font-size: 16px;
+}
+.resources h6{
+  color: #ffff;
+  font-weight: 60;
+  line-height: 2.1;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.policies{
+  margin-left: 1169px;
+  margin-top: -246px;
+  color: #404EED;
+  font-weight: 40px;
+  font-size: 16px;
+}
+.policies h6{
+  color: #ffff;
+  font-weight: 60;
+  line-height: 2.1;
+  font-size: 15px;
+  margin-top: 10px;
+  
+}
+.line{
+  width: 100%;
+  height: 1px;
+  margin-bottom: 35px;
+  color: #404EED;
+  padding-left: 170px;
+}
+.lastlogo{
+  width: 133px;
+  margin-top: 40px;
+  margin-left: 165px;
+}
+.last-button{
+  color: #ffff;
+  background-color: #5865F2;
+  width: 70px;
+  height: 40px;
+  margin-left: 970px;
+}
+
